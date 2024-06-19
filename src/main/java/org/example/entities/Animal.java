@@ -6,29 +6,12 @@ public class Animal {
     private String name;
     private String species;
     private int age;
-    private int enclosureId;
 
     public Animal(int id, String name, String species, int age) {
         this.id = id;
         this.name = name;
         this.species = species;
         this.age = age;
-    }
-
-    public Animal(int id, String name, String species, int age, int enclosureId) {
-        this.id = id;
-        this.name = name;
-        this.species = species;
-        this.age = age;
-        this.enclosureId = enclosureId;
-    }
-
-    public int getEnclosureId() {
-        return enclosureId;
-    }
-
-    public void setEnclosureId(int enclosureId) {
-        this.enclosureId = enclosureId;
     }
 
     public int getId() {

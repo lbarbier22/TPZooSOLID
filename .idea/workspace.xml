@@ -5,26 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc634ce2-ea96-4910-82e7-5d1afc90397c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Enclosure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Species.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/AnimalRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/EnclosureRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/AnimalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/EnclosureService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/AnimalServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/EnclosureServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/SizeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/entities/AnimalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/entities/EnclosureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/service/impl/AnimalServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/service/impl/EnclosureServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Enclosure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Enclosure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/EnclosureServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/EnclosureServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/entities/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/entities/AnimalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/impl/EnclosureServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/impl/EnclosureServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +74,7 @@
       <command value="mvn install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EnclosureServiceImplTest">
+  <component name="RunManager" selected="JUnit.java in untitled">
     <configuration name="AnimalServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
@@ -110,22 +95,6 @@
       <option name="PACKAGE_NAME" value="entities" />
       <option name="MAIN_CLASS_NAME" value="entities.AnimalTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnimalTest.testAnimalCreationSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="entities.EnclosureTest" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="entities" />
-      <option name="MAIN_CLASS_NAME" value="entities.AnimalTest" />
-      <option name="METHOD_NAME" value="testAnimalCreationSuccess" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,6 +129,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="java in untitled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="TPZooSOLID" />
       <method v="2">
@@ -175,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.java in untitled" />
+        <item itemvalue="JUnit.AnimalTest" />
         <item itemvalue="JUnit.EnclosureServiceImplTest" />
         <item itemvalue="JUnit.EnclosureTest" />
         <item itemvalue="JUnit.AnimalServiceImplTest" />
-        <item itemvalue="JUnit.AnimalTest" />
-        <item itemvalue="JUnit.AnimalTest.testAnimalCreationSuccess" />
       </list>
     </recent_temporary>
   </component>

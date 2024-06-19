@@ -6,6 +6,7 @@ import org.example.repository.EnclosureRepository;
 import org.example.service.AnimalService;
 import org.example.service.EnclosureService;
 
+import java.util.List;
 
 
 public class EnclosureServiceImpl implements EnclosureService {
@@ -35,7 +36,7 @@ public class EnclosureServiceImpl implements EnclosureService {
     @Override
     public void assignAnimalToEnclosure(Animal animalToAssign, Enclosure enclosure) {
         if(isCompatible(animalToAssign,enclosure)){
-          animalToAssign.setEnclosureId(enclosure.getId());
+          enclosure.addAnimals(animalToAssign.getId());
         }
     }
 

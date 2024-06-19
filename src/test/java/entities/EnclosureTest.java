@@ -21,7 +21,7 @@ public class EnclosureTest {
     public void init() {
         List<String> authorizedSpecies = Arrays.asList("Lion", "Tiger", "Leopard");
         species = new Species(authorizedSpecies);
-        enclosure = new Enclosure(1, "Savannah", SizeEnum.LARGE, species);
+        enclosure = new Enclosure(1, "Savannah", SizeEnum.LARGE, species, List.of());
     }
 
     @Test

@@ -19,9 +19,11 @@ public class AnimalTest {
 
     @BeforeEach
     public void init(){
+        michelLion = new Animal(1,"Michel", "Lion", 5);
+
         Species speciesLargeCats = new Species(List.of("Lion", "Tiger", "Leopard"));
-        enclosureSmall = new Enclosure(2, "SmallLionEnclosure", SizeEnum.SMALL, speciesLargeCats);
-        michelLion = new Animal(1,"Michel", "Lion", 5, 2);
+        enclosureSmall = new Enclosure(2, "SmallLionEnclosure", SizeEnum.SMALL, speciesLargeCats, List.of(1));
+
     }
 
     @Test

@@ -14,8 +14,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 public class EnclosureServiceImplTest {
@@ -60,7 +59,7 @@ public class EnclosureServiceImplTest {
         when(animalService.getAnimalById(animal.getId())).thenReturn(Optional.of(animal));
         enclosureService.assignAnimalToEnclosure(animal, enclosure);
 
-        assertEquals(enclosure.getId(), animal.getEnclosureId());
+        assertTrue(enclosure.getAnimalsIn().contains(animal.getId()));
     }
 
     @Test
@@ -71,13 +70,13 @@ public class EnclosureServiceImplTest {
         when(animalService.getAnimalById(animal.getId())).thenReturn(Optional.of(animal));
         enclosureService.assignAnimalToEnclosure(animal, enclosure);
 
-        assertNotEquals(enclosure.getId(), animal.getEnclosureId());
+        assertTrue(enclosure.getAnimalsIn().contains(animal.getId()));
     }
 
     private Enclosure createTestEnclosure() {
         List<String> authorizedSpecies = Arrays.asList("Lion", "Tiger", "Leopard");
         Species species = new Species(authorizedSpecies);
-        return new Enclosure(1, "Savannah", SizeEnum.LARGE, species);
+        return new Enclosure(1, "Savannah", SizeEnum.LARGE, species, List.of(1));
     }
 
     private Animal createTestAnimal(String species) {
