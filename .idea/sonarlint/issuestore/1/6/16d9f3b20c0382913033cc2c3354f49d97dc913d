@@ -1,0 +1,14 @@
+
+ƒ
+java:S2789"@Methods with an "Optional" return type should never return null.(¥¹ï8¦ˆºˆƒ2J$c840ba71-a8d7-40b5-ba9b-0e86a1040c0c
+É
+java:S1186
+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ğáêúÿÿÿÿ8úø·ˆƒ2J$6297e24b-6dbc-4f37-8a8e-82110b2f64d9
+É
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(üåÛ»ÿÿÿÿÿ8ûø·ˆƒ2J$8ce3971b-2df2-4114-9c7b-82a79f1bd737
+É
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ò´ì‚ıÿÿÿÿ8ûø·ˆƒ2J$0fcec261-4e89-4066-9e24-4e9aafde2e19
+w
+java:S1172"/Remove this unused method parameter "animalId".(Ùˆò¯ÿÿÿÿÿ8ıø·ˆƒ2J$0b072c24-7708-45aa-9710-d5509a26660c
+n
+java:S1168"+Return an empty collection instead of null.(¥¹ï8ùß÷ˆƒ2J$f7479be6-955c-4d02-9479-aacbfc2a12dd
