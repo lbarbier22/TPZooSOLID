@@ -2,18 +2,18 @@ package org.example.utils;
 
 public enum SizeEnum {
 
-    SMALL("small"),
-    MEDIUM("medium"),
-    LARGE("large"),
-    XLARGE("extra-large");
+    SMALL(3),
+    MEDIUM(8),
+    LARGE(12),
+    XLARGE(20);
 
-    private String sizeValue;
+    private int sizeValue;
 
-    SizeEnum(String size) {
+    SizeEnum(int size) {
         this.sizeValue = size;
     }
 
-    public String getValue() {
+    public int getValue() {
         return sizeValue;
     }
 }

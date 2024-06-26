@@ -1,5 +1,13 @@
 
 a
-java:S5786"Remove this 'public' modifier.(ı‘€‡8ïŸÎ¦…2J$26da736d-8894-4df6-b2f9-724ee5abec8f
+java:S5786 "Remove this 'public' modifier.(®ÒøÊ8üÍ¶ª…2J$52ad294b-c85d-48f8-afbe-abc62e03c606
+f
+java:S5786+"Remove this 'public' modifier.(‘¦Ï†øÿÿÿÿ8üÍ¶ª…2J$eebc0842-4907-4c7e-a553-7d8787f176cc
 a
-java:S5786"Remove this 'public' modifier.(²ŞÛ8ğŸÎ¦…2J$702b66cf-21d4-483e-a3ec-c550dc370151
+java:S5786"Remove this 'public' modifier.(²ŞÛ8üÍ¶ª…2J$bc8e61a8-acf7-4e15-9ab6-4e6b466abb30
+İ
+java:S1130 "™Remove the declaration of thrown exception 'org.example.exceptions.AnimalIsNotCompatibleWithEnclosureSpecies', as it cannot be thrown from method's body.(®ÒøÊ8ıÍ¶ª…2J$f16c4668-54b1-4072-9203-bf483620f1d7
+Ì
+java:S1130 "ˆRemove the declaration of thrown exception 'org.example.exceptions.NoPlaceLeftedForAnAnimal', as it cannot be thrown from method's body.(®ÒøÊ8ıÍ¶ª…2J$e1609442-9996-48b7-874a-0e2810f26568
+
+java:S1128"MRemove this unused import 'org.example.exceptions.TooMuchEnclosuresInVisite'.(æˆîä8ıÍ¶ª…2J$00530099-c0db-4ea6-ace7-a5d6e0a720aa

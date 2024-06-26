@@ -53,3 +53,17 @@ s
 Csrc/test/java/service/impl/EnclosureAssignementServiceImplTest.java,6\8\68d0dbad1e4273592fb51bad4aea7e4a98ee40e1
 w
 Gsrc/main/java/org/example/exceptions/RemoveEnclosureToZooException.java,c\f\cfc19e78dc743e88d3a796a0c8dd476be71f86bb
+^
+.src/main/java/org/example/entities/Visite.java,6\7\6760086fae1786cb1a99216cbdacc25cdff5a7ba
+s
+Csrc/main/java/org/example/exceptions/TooMuchEnclosuresInVisite.java,5\1\5157ea7e774d0ab9d86b6abc497a2ec8cc287574
+l
+<src/main/java/org/example/service/ZooAssignementService.java,7\4\74048634b7bcdb5a11c02719da66d8d7aa60e5ce
+o
+?src/main/java/org/example/service/VisiteAssignementService.java,4\3\43bb078c97009725dbc9e109ba7d224cd5111c46
+x
+Hsrc/main/java/org/example/service/impl/VisiteAssignementServiceImpl.java,5\2\52a2adcbe5b2dc08053e84254613779a244be30d
+r
+Bsrc/main/java/org/example/exceptions/NoPlaceLeftedForAnAnimal.java,8\e\8ebbf371dbe270fe38db85eac6e97d4c3e8e84f8
+ƒ
+Ssrc/main/java/org/example/exceptions/AnimalIsNotCompatibleWithEnclosureSpecies.java,a\9\a9138041071b789cc7a07a4115ea0d9188bcc58c
