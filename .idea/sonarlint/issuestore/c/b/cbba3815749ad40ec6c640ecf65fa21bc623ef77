@@ -1,11 +1,14 @@
 
 ƒ
-java:S2789"@Methods with an "Optional" return type should never return null.(¥¹ï8¦ˆºˆƒ2J$67d3b3c9-ba09-4659-91cf-3e23a6e352ff
+java:S2789"@Methods with an "Optional" return type should never return null.(¥¹ï8¦ˆºˆƒ2J$67d3b3c9-ba09-4659-91cf-3e23a6e352ff
 É
-java:S1186	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ğáêúÿÿÿÿ8úø·ˆƒ2J$c230d96e-b08a-428a-92d7-8af2f7c6a01e
+java:S1186
+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ğáêúÿÿÿÿ8úø·ˆƒ2J$c230d96e-b08a-428a-92d7-8af2f7c6a01e
 É
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(üåÛ»ÿÿÿÿÿ8ûø·ˆƒ2J$01c46337-bb9a-4f8f-8387-4a0022e71979
-Ä
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(’í€«8ûø·ˆƒ2J$5fa4cd26-eb07-4922-ad03-28b10f89fd59
-w
-java:S1172"/Remove this unused method parameter "animalId".(‡´ÍÃúÿÿÿÿ8ıø·ˆƒ2J$b4c72e1a-bb8c-4c16-b14d-381283f6f134
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(üåÛ»ÿÿÿÿÿ8ûø·ˆƒ2J$01c46337-bb9a-4f8f-8387-4a0022e71979
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ò´ì‚ıÿÿÿÿ8 Îæ¥…2
+Q
+java:S1172"/Remove this unused method parameter "animalId".(Ùˆò¯ÿÿÿÿÿ8¤Îæ¥…2
+H
+java:S1168"+Return an empty collection instead of null.(¥¹ï8«Îæ¥…2

@@ -1,48 +1,52 @@
 package org.example.entities;
 
+import org.example.utils.SpeciesEnum;
+
+import java.time.LocalDate;
+import java.time.Period;
+import java.util.UUID;
+
+import static java.util.UUID.randomUUID;
+
 public class Animal {
 
-    private int id;
+    private UUID id;
     private String name;
-    private String species;
-    private int age;
+    private SpeciesEnum specie;
+    private LocalDate anniversaryDate;
 
-    public Animal(int id, String name, String species, int age) {
-        this.id = id;
+    public Animal( String name, SpeciesEnum species, LocalDate anniversaryDate) {
+        this.id = randomUUID();
         this.name = name;
-        this.species = species;
-        this.age = age;
+        this.specie = species;
+        this.anniversaryDate = anniversaryDate;
     }
 
-    public int getId() {
+    public UUID getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public void changeName(String name) {
         this.name = name;
     }
 
-    public String getSpecies() {
-        return species;
+    public SpeciesEnum getSpecie() {
+        return specie;
     }
 
-    public void setSpecies(String species) {
-        this.species = species;
+    public void changeSpecie(SpeciesEnum specie) {
+        this.specie = specie;
     }
 
     public int getAge() {
-        return age;
+        return Period.between(anniversaryDate, LocalDate.now()).getYears();
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setAnniversaryDate(LocalDate anniversaryDate) {
+        this.anniversaryDate = anniversaryDate;
     }
 }

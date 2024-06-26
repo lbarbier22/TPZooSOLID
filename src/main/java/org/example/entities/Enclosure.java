@@ -1,34 +1,41 @@
 package org.example.entities;
 
 import org.example.utils.SizeEnum;
+import org.example.utils.SpeciesEnum;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 public class Enclosure {
-    private int id;
+    private UUID id;
     private String name;
     private SizeEnum size;
-    private Species speciesAuthorized;
-    private List<Integer> animalsIn;
+    private SpeciesEnum specieAuthorized;
+    private List<Animal> animals;
 
-    public Enclosure(int id, String name, SizeEnum size, Species speciesAuthorized, List<Integer> animalsIn) {
-        this.id = id;
+    public Enclosure(String name, SizeEnum size, SpeciesEnum speciesAuthorized, List<Animal> animals) {
+        this.id = UUID.randomUUID();
         this.name = name;
         this.size = size;
-        this.speciesAuthorized = speciesAuthorized;
-        this.animalsIn = animalsIn;
+        this.specieAuthorized = speciesAuthorized;
+        this.animals = animals;
     }
 
-    public List<Integer> getAnimalsIn() {
-        return animalsIn;
+    public Enclosure(String name, SizeEnum size, SpeciesEnum speciesAuthorized) {
+        this.id = UUID.randomUUID();
+        this.name = name;
+        this.size = size;
+        this.specieAuthorized = speciesAuthorized;
+        this.animals = new ArrayList<>();
     }
 
-    public void addAnimals(int animalId) {
-        this.animalsIn.add(animalId);
+    public List<Animal> getAnimals() {
+        return animals;
     }
 
-    public int getId() {
-        return id;
+    public void addAnimal(Animal animal){
+        animals.add(animal);
     }
 
     public String getName() {
@@ -39,12 +46,12 @@ public class Enclosure {
         this.name = name;
     }
 
-    public Species getSpeciesAuthorized() {
-        return speciesAuthorized;
+    public void changeSpecieAuthorized(SpeciesEnum speciesEnum){
+        specieAuthorized = speciesEnum;
     }
 
-    public void setSpeciesAuthorized(Species speciesAuthorized) {
-        this.speciesAuthorized = speciesAuthorized;
+    public SpeciesEnum getSpecieAuthorized() {
+        return specieAuthorized;
     }
 
     public SizeEnum getSize() {
